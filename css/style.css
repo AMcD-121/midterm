@@ -37,3 +37,37 @@ h1 {
     font-size: 0.85rem;
     border-bottom: 2px solid #ff3530;
 }
+
+figcaption, .news, .subtitle, .author, .date, h2 {
+    font-family: "Open Sans";
+}
+
+.author, .date {
+    font-size: .85rem;
+    margin-bottom: 0;
+}
+
+figure {
+    margin: 1.25em 0 1.25em 0;
+}
+
+figcaption {
+    font-size: .75rem;
+    text-align: center;
+    color: #757575;
+    font-style: italic;
+}
+
+.nominees {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a {
+    color: #1a1a1a;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ff3530;
+}
